@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "not interns",
+        "dao heads ",
+        "sub-team leads",
+        "interns"
+      ]
+    },
+    "username": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "link2": {
+      "type": "string"
+    },
+    "awards": {
+      "type": "json"
+    },
+    "bio": {
+      "type": "richtext"
+    }
+  }
+}
