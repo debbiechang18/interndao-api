@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "philosophy_texts",
+  "info": {
+    "singularName": "philosophy-text",
+    "pluralName": "philosophy-texts",
+    "displayName": "philosophy-text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

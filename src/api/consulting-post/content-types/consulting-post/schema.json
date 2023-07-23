@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consulting_posts",
+  "info": {
+    "singularName": "consulting-post",
+    "pluralName": "consulting-posts",
+    "displayName": "Consulting-post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "research",
+        "public relations",
+        "decentralized governance",
+        "business intelligence",
+        "protocol design ",
+        "treasury management"
+      ]
+    },
+    "header": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

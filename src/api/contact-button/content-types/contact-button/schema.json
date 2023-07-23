@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_buttons",
+  "info": {
+    "singularName": "contact-button",
+    "pluralName": "contact-buttons",
+    "displayName": "Contact-button"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "apply to be an intern",
+        "consulting services",
+        "general contact"
+      ]
+    },
+    "buttonID": {
+      "type": "string"
+    }
+  }
+}

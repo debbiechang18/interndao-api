@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_cards",
+  "info": {
+    "singularName": "research-card",
+    "pluralName": "research-cards",
+    "displayName": "Consulting-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "clients"
+      ]
+    },
+    "clientName": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

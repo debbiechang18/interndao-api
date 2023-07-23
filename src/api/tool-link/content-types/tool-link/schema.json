@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tool_links",
+  "info": {
+    "singularName": "tool-link",
+    "pluralName": "tool-links",
+    "displayName": "Tool-link",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}
