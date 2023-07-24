@@ -4,7 +4,8 @@
   "info": {
     "singularName": "logo",
     "pluralName": "logos",
-    "displayName": "logo"
+    "displayName": "logo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,39 @@
   "pluginOptions": {},
   "attributes": {
     "fullLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "condensedLogoPink": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mobileLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "condensedLogoYellow": {
       "allowedTypes": [
         "images",
         "files",
@@ -20,26 +54,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "condensedLogo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
-    },
-    "mobileLogo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
     }
   }
 }

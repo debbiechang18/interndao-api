@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-info",
     "pluralName": "contact-infos",
-    "displayName": "Contact-info"
+    "displayName": "Contact-info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,21 @@
       "type": "string"
     },
     "contact2": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "discord": {
+      "type": "string"
+    },
+    "telegram": {
       "type": "string"
     }
   }
