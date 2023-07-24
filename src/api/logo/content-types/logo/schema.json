@@ -46,6 +46,17 @@
       ]
     },
     "condensedLogoYellow": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logoText": {
       "allowedTypes": [
         "images",
         "files",
