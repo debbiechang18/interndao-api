@@ -55,6 +55,16 @@
         "videos",
         "audios"
       ]
+    },
+    "desktopLogoText": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
