@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "logo": {
+    "fullLogo": {
       "allowedTypes": [
         "images",
         "files",
@@ -20,6 +20,26 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "condensedLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "mobileLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
