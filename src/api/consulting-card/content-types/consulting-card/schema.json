@@ -32,7 +32,7 @@
     "section": {
       "type": "enumeration",
       "enum": [
-        "Clients"
+        "clients"
       ]
     }
   }
