@@ -15,9 +15,6 @@
     "email": {
       "type": "string"
     },
-    "contact2": {
-      "type": "string"
-    },
     "twitter": {
       "type": "string"
     },
