@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consulting_cards",
+  "info": {
+    "singularName": "consulting-card",
+    "pluralName": "consulting-cards",
+    "displayName": "Consulting-card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ClientName": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "URL": {
+      "type": "string"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "Clients"
+      ]
+    }
+  }
+}
