@@ -13,12 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "clientName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "photo": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -33,7 +34,8 @@
       "type": "enumeration",
       "enum": [
         "clients"
-      ]
+      ],
+      "required": true
     }
   }
 }

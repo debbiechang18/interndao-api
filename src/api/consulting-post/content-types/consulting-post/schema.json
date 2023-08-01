@@ -4,7 +4,8 @@
   "info": {
     "singularName": "consulting-post",
     "pluralName": "consulting-posts",
-    "displayName": "Consulting-post"
+    "displayName": "Consulting-post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,7 +21,8 @@
         "business intelligence",
         "protocol design ",
         "treasury management"
-      ]
+      ],
+      "required": true
     },
     "header": {
       "type": "string"
