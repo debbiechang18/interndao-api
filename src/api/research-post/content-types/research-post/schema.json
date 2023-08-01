@@ -4,7 +4,8 @@
   "info": {
     "singularName": "research-post",
     "pluralName": "research-posts",
-    "displayName": "Research-post"
+    "displayName": "Research-post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,23 +13,29 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "text"
+      "type": "text",
+      "required": false
     },
     "url": {
       "type": "string"
     },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "text": {
+      "type": "richtext"
     }
   }
 }
