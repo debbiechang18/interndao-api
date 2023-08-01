@@ -18,8 +18,7 @@
     },
     "subtitle": {
       "type": "text",
-      "required": false,
-      "maxLength": 160
+      "required": false
     },
     "url": {
       "type": "string"
