@@ -29,6 +29,9 @@
     },
     "telegram": {
       "type": "string"
+    },
+    "contact2": {
+      "type": "string"
     }
   }
 }
